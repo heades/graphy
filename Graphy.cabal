@@ -1,0 +1,14 @@
+Name:		Graphy
+Version:	0.0.1
+Cabal-Version:  >= 1.22
+Author:		Harley Eades III
+Homepage:	?
+Category:	Graphing
+Synopsis:	A simple way to generate images of graphs.
+build-type: Simple
+  
+Library
+  Build-Depends: base, text, fgl, graphviz
+  default-language: Haskell2010
+  Exposed-modules:
+    Graphy
